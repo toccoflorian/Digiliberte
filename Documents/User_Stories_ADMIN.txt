@@ -1,0 +1,71 @@
+<CodeCafé>
+
+CONNEXION 
+
+En tant qu'administrateur je veux pouvoir me connecter et que mon appli s'adapte à mon profil
+En tant que collaborateur je veux pouvoir me connecter et que mon appli s'adapte à mon profil
+( Gérer mot de passe oublié ? Lien/Contact vers SAV ? )
+
+
+ADMINISTRATEUR - AJOUTER 
+
+En tant qu'administrateur, je veux pouvoir ajouter des véhicules
+♦ En tant qu'administrateur, lors de l'ajout d'un véhicule, je veux pouvoir renseigner, immat , marque , modèle, 
+catégories ( Liste : 
+o Micro-urbaines
+o Mini-citadines
+o Citadines polyvalentes
+o Compactes
+o Berlines Taille S
+o Berlines Taille M
+o Berlines Taille L
+o SUV, Tout-terrains et Pick-up)
+Renseigner une URL de photo, spécifier motorisation(Hybride, élec,thermique....), 
+indiqué conso CO2 / Km, Renseigner nbr de places
+
+
+ADMINISTATEUR - VISUALISER 
+
+- En tant qu'administrateur, je veux pouvoir accéder à la liste des véhicules de services
+- En tant qu'administrateur, je veux pouvoir filter les véhicules par Immat ou Marque
+- En tant qu'administrateur, je veux pouvoir depuis cette liste, Modifier ou supprimer un véhicule donné
+- En tant qu'administrateur, je veux pouvoir gérer les véhicules depuis cette liste
+- En tant qu'administrateur, je veux pouvoir afficher par véhicules les infos suivantes : 
+• Immat, Marque, Modèle, Photos(URL) , Motorisation, Conso CO2/km, nbr de places, Catégorie : 
+o Micro-urbaines
+o Mini-citadines
+o Citadines polyvalentes
+o Compactes
+o Berlines Taille S
+o Berlines Taille M
+o Berlines Taille L
+o SUV, Tout-terrains et Pick-up
+
+
+
+
+ADMINISTRATEUR - MODIFIER
+
+- En tant qu’administrateur je peux modifier un véhicule de service.
+- En tant qu'administrateur je peux modifier : 
+• Immatriculation
+• Marque
+• Modèle
+• Catégorie
+• Photo
+• Nombre de places
+• Motorisation (Hybride, électrique, etc..)
+• CO2/km
+• Statut (en service, en réparation ou hors service)
+
+- En tant qu'administrteur j'ai accès à un tableau des résas : En cours , Futures, Passés
+- En tant qu'administrateur, les tableau résas contiennent :  
+• Date heure de début
+• Date heure de fin
+• Responsable (personne ayant effectuée la réservation)
+
+- En tant qu'administrateur, je veux que lors de la mise hors services ou en travaux d'un véhicule, les résas en cours soient annulés et qu'un mail s'envoit aux concernés. 
+
+- En tant qu'administrateur, je veux qu'a partir de la modification, je puisse valider ou annuler et ainsi revenir à la liste de visualisation.
+
+
