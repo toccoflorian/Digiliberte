@@ -13,7 +13,7 @@ véhicule:
 	-type: -berline, micro, tt terrain,
 
 Le client peut louer juste une place.
-
+  
 Pas de syteme pour l'assurance ou permis...
 
 Service pour entreprise et/ou particulier
