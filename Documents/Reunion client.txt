@@ -1,0 +1,132 @@
+Comment connais-t-on la consomation et l'émission de CO2?
+
+
+véhicule essence, diesel, hybride ou electrique.
+plein et rechargement à la charge du client
+
+Differencier les place de stationnement pour les véhicules electrique ou essence,
+une voiture electrique peut avoir une place 'elec' ou non
+
+véhicule:
+	-marque
+	-modele
+	-type: -berline, micro, tt terrain,
+
+Le client peut louer juste une place.
+  
+Pas de syteme pour l'assurance ou permis...
+
+Service pour entreprise et/ou particulier
+
+Pas de gestion du paiement, que gestion
+
+Pas de gestion de maintenance.
+
+Pas d'equipement, vehicule standards
+
+Taux de CO2 en fonction des modèles, (ex: ce véhucule produit tant de CO2 au 100km, cosomme tant au 100km)
+
+Numéro du SAV sur l'app
+
+Le client peut garer le véhicule sur une place non loué
+
+géolocalisation etc gerer par service tiers
+
+Ajout de vehicule etc gerer par administrateur
+
+il faut un compte admin
+
+les entreprises payent pour avoir accès au logiciel pour ses collaborateur 
+
+On peut reserver un covoit, modifier, supprimer (supprimer 2 jours avant au plus tard san penalite)
+
+Si quelqu'un reserve mais ne vient pas, c'est debité mais on ne le gere pas
+
+Creer un compte admin pour gerer les véhicules: en service, en reapration, hors service
+
+Peut louer si vehicule disponnible (pas de date)
+
+La personne peut etendre tant qu'elle est toujours disponnible
+
+Pas de gestion de probleme avec vehicule dans l'appli
+
+Approche reactive plutot que predictive
+
+forfait et autre non gerer par l'appli
+
+
+
+pas besoin de gerer les prix dans l'appli
+
+covoiturage pour particulier uniquement et pas prioritaire
+Covoiturage interne a une entreprise client
+
+en fonction de ceux qui est dispo pouvoir filtrer
+
+proposer maquette
+
+Disponibilite des vehicules en fonction du site (adresse depart, adresse arrive)
+Mettre en avant les vehicule en fonction de la localisation du client
+Vehicule toujour dispo a chaque site (pas bien compris)
+
+Site responsive (mobil-first), pas d'installation 
+
+Badge pour ouvrir la voiture reservée (pas gerer par l'appli)
+Associé un nom de client au badge
+
+pas besoin de gerer la creation de compte client
+
+Interface de connexion uniquement
+
+Creer un nom d'utilisateur UNIQUE format prenom.nom 
+
+Reservation de place de stationnement pas prioritaire, gestion reservation vehicule prioritaire puis co-voiturage
+
+pouvoir filtrer par marque, modele, place ds le vehicule, volume
+
+Statistique CO2, uniquement pour co-voiturage (par vehicule, par personne si on veut) (grace à lieu depart, lieu arrivé)
+
+Lieu de depart et arrivé seulement pour covoiturage
+
+Une base de donnée specifique à une entreprise
+
+En fonction de ce que paye l'entreprise, elle a accès a une flotte (dédiée) differente de vehicules
+
+Les vehicules sont dediés a une entreprise
+
+Une base de donnée commune pour les particuliés 
+
+Une base de donnee 'entreprise' pour le developpement 
+
+Si une entreprise prend un vehicule, proposé du co-voiturage
+
+
+Historique dans la DB
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

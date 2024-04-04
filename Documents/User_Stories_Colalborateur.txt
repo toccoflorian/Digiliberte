@@ -1,0 +1,150 @@
+<CodeCafé/>
+
+COLLABORATEUR 
+
+
+En tant que collaborateur, je veux pouvoir me connecter avec mes identifiants
+En tant que collaborateur, je veux pouvoir accéder à mon espace Collaborateur
+
+
+-------------------------------------------COVOITURAGE-----------------------------------------------------
+
+Visualisation COVOITURAGE
+
+En tant que collaborateur, je veux accéder à ma liste de réservation de type covoiturage afin de les visualiser
+En tant que collaborateur, je veux accéder à la liste de mes réservation de covoiturages en cours 
+En tant que collaborateur, je veux accéder à la liste de mes covoiturages passés
+En tant que collaborateur, pour chaque covoiturage je veux pouvoir accéder aux infos suivantes :
+	• Une date heure de départ
+	• Une adresse de départ
+	• Une adresse d’arrivée
+	• Un véhicule de service
+	• Un nombre de places restantes
+En tant que collaborateur, je veux pouvoir cliquer sur le détail d'une réservation ( en cours ou historique ) qui contient :
+	• Véhicule (marque, modèle, nb de places d’origine, immatriculation) (=> voir pour rattacher le véhicule perso à son profil afin de ne pas ressaisir les mêmes infos à chaque fois. )
+	• Organisateur
+	• Liste des autres passagers
+
+En tant que collaborateur, je veux pouvoir annuler une réservation, qui me sort de la liste des passager et libère une place dans le covoit
+
+
+Réserver COVOITURAGE
+
+En tant que collaborateur, je souhaite pouvoir réserver une place dans un covoiturage
+En tant que collaborateur, je souhaite pouvoir rechercher des covoiturages en fonction des critères suivants :
+	• Adresse de départ 
+	• Adresse d'arrivé
+	• Date de Départ
+En tant que collaborateur, je souhaite que mes résultats s'affiche dans un tableau, et que la liste s'affine dynamiquement en fonctions des critères choisis
+En tant que collaborateur, je veux pouvoir afficher également les covoiturage n'ayant plus de places dispos. (Sans pouvoir réserver)
+En tant que collaborateur, je souhaite qu'un clic sur le bouton réserver m'affiche une fenetre de confirmation
+En tant que collaborateur, je souhaite que la fenetre confirmation contienne les infos du covoiturage (véhicule et liste de passager) 
+En tant que collaborateur, je souhaite que la la fenetre de confirmation me permette d'annuler et ainsi fermer la fenetre
+En tant que collaborateur, je souhaite que la fenetre de confirmation me permette de confirmer et donc réserver une place dans le covoit
+
+
+Annuler un COVOITURAGE
+
+En tant que collaborateur, je souhaite pouvoir annuler ma participation à un covoiturage
+En tant que collaborateur, je souhaite pouvoir faire cette annulation depuis la liste de mes covoit en cours
+En tant que collaborateur, je souhaite que lors de l'annulation une fenetre de confirmation s'ouvre avec les détails du covoit
+En tant que collaborateur, je veux pouvoir depuis la fenetre d'annulation, avoir un bouton annuler(Retour)
+En tant que collaborateur, je souhaite avoir un bouton confirmer, qui annule ma place dans le covoiturage
+
+
+
+CREER UN COVOITURAGE
+
+En tant que collaborateur, je souhaite pouvoir publier une annonce de covoiturage
+En tant que collaborateur, je dois lors de la création, renseigner les infos : 
+	• Une adresse de départ (saisie assistée facultative avec une API. API Open Street Map)
+	• Une adresse d’arrivée (idem ci-dessus)
+	• Une durée de trajet (calculée via une API : calcul facultatif pour ce projet sinon saisie)
+	• Une distance (calculée via une API : calcul facultatif pour ce projet sinon saisie)
+	• Un véhicule (ou véhicule perso présaisi) :
+		o Une immatriculation
+		o Une marque
+		o Un modèle
+		o Nombre de places disponibles
+	• Une date/heure de départ
+En tant que collaborateur, après avoir renseigné ces infos je peux cliquer sur publier pour Publier l'annonce. 
+En tant que collaborateur, après avoir renseigné ces infos je peux cliquer sur annuler pour Annuler et revenir à la liste des covoiturages. 
+
+
+MODIFIER UNE ANNONCE DE COVOITURAGE
+
+En tant que collaborateur, j'ai la possibilité de modifier une annonce de covoiturage , seulement si elle n'est pas déjà réservé. 
+En tant que collaborateur, lors d'une modification, je peux Valider ma modification.
+En tant que collaborateur, lors d'une modification, je peux Annuler la modification.
+En tant que collaborateur, j'ai la possibilité d'annuller une annonce de covoiturage.
+
+
+SUPPRIMER UN COVOITURAGE
+
+En tant que collaborateur, j'ai la possibilité, quel que soit le cas , de supprimer une de mes annonces de covoiturage
+En tant que collaborateur, lors d'une supression , une fenetre de confirmation s'ouvre. 
+En tant que collaborateur, dans la fenetre de confirmation, s'affiche la liste des personnes ayant réservés. 
+En tant que collaborateur, dans la fenetre de confirmation, s'affiche un bouton annuler, qui me renvoit sur la liste.
+En tant que collaborateur, dans la fenetre de confirmation, s'affiche un bouton Confirmer, qui supprime le covoit.
+En tant que collaborateur, je veux que lors d'une annulation, un mail soit envoyé aux personnes ayant réservés. 
+
+
+
+
+---------------------------------------RESERVATION VEHICULE SERVICE-------------------------------------------------
+
+
+LISTER RESERVATION VEHICULE
+
+
+En tant que collaborateur, j'ai la possibilité de visualiser mes réservations en cours et historique
+En tant que collaborateur, j'ai un tableau des réservations en cours.
+En tant que collaborateur, j'ai un tableau des réservations historique. 
+
+En tant que collaborateur, je veux avoir accès aux infos suivantes dans chaques tableaux: 
+	• Date heure de début
+	• Date heure de fin
+	• Immatriculation
+	• Marque
+	• Modèle
+
+En tant que collaborateur, je veux depuis cette liste : 
+	• Modifier une réservation en cours
+	• Annuler une demande en cours
+	• Réaliser une nouvelle réservation
+
+
+RESERVATION VEHICULE DE SERVICE
+
+En tant que collaborateur, j'ai la possibilité de réserver un véhicule de service. 
+En tant que collaborateur, je veux pouvoir afficher une liste des véhicules disponible à la réservation.
+En tant que collaborateur, je veux pouvoir appliquer des filtres sur cette liste et qu'elle s'actualise dynamiquement.
+En tant que collaborateur, je dois lors de la réservations spécifier les infos suivantes : 
+	• Une heure départ
+	• Une Date/Heure de retour estimé
+En tant que collaborateur, je veux pouvoir selectionner seulement les véhicules dispos aux dates choisis.
+En tant que collaborateur, je veux lors la réservation voir Les infos concernant le véhicule selectionné ( Immat, marque, modèle, lieu, photo(URL), nb de places..)
+En tant que collaborateur, lors de la selection d'un véhicule, je veux pouvoir le réserver en cliquant sur réserver.
+En tant que collaborateur, je veux pouvoir annuler ma création de réservation et revenir à la visualisation des véhicules.
+
+MODIFIER RESERVATION DUN VEHICULE DE SERVICE
+
+En tant que collaborateur, j'ai la possibilité de modifier ma réservation.
+En tant que collaborateur, je veux pouvoir modifier n'importe quelle informations (Véhicule, dates ect...)
+En tant que collaborateur, je ne dois pas pouvoir réserver, si la réservation n'est pas possible aux nouvelles dates. 
+En tant que collaborateur, lors de la modification, je veux pouvoir confirmer la/les modifications.
+En tant que collaborateur, lors de la modification, je veux pouvoir les annuler la/les modifications.
+
+
+SUPPRIMER RESERVATION DUN VEHICULE
+
+En tant que collaborateur, je veux pouvoir supprimer une réservation d'un véhicule de service. 
+En tant que collaborateur, je veux pouvoir Valider la suppression, via le bouton confirmer.
+En tant que collaborateur, je veux pouvoir annuler la suppression de réservation, via le bouton Annuler. 
+
+
+
+ 
+ 
+
+
