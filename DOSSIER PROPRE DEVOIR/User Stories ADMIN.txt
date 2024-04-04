@@ -1,4 +1,4 @@
-<CodeCafé>
+<CodeCafé/>
 
 CONNEXION 
 
@@ -6,7 +6,7 @@ En tant qu'administrateur je veux pouvoir me connecter et que mon appli s'adapte
 En tant que collaborateur je veux pouvoir me connecter et que mon appli s'adapte à mon profil
 ( Gérer mot de passe oublié ? Lien/Contact vers SAV ? )
 
- 
+
 ADMINISTRATEUR - AJOUTER 
 
 En tant qu'administrateur, je veux pouvoir ajouter des véhicules

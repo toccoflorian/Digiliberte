@@ -21,7 +21,9 @@ En tant que collaborateur, pour chaque covoiturage je veux pouvoir accéder aux 
 	• Un véhicule de service
 	• Un nombre de places restantes
 En tant que collaborateur, je veux pouvoir cliquer sur le détail d'une réservation ( en cours ou historique ) qui contient :
-	• Véhicule (marque, modèle, nb de places d’origine, immatriculation) (=> voir pour rattacher le véhicule perso à son profil afin de ne pas ressaisir les mêmes infos à chaque fois. )
+	• Véhicule (marque, modèle, nb de places d’origine, immatriculation) (=> voir pour
+	rattacher le véhicule perso à son profil afin de ne pas ressaisir les mêmes infos
+	à chaque fois. )
 	• Organisateur
 	• Liste des autres passagers
 
@@ -98,8 +100,8 @@ LISTER RESERVATION VEHICULE
 
 
 En tant que collaborateur, j'ai la possibilité de visualiser mes réservations en cours et historique
-En tant que collaborateur, j'ai un tableau des réservations en cours.
-En tant que collaborateur, j'ai un tableau des réservations historique. 
+	En tant que collaborateur, j'ai un tableau des réservations en cours.
+	En tant que collaborateur, j'ai un tableau des réservations historique. 
 
 En tant que collaborateur, je veux avoir accès aux infos suivantes dans chaques tableaux: 
 	• Date heure de début
